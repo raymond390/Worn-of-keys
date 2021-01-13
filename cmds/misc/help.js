@@ -14,31 +14,68 @@ module.exports = class help extends Commando.Command {
     const { guild, channel } = message
 
 const embed = new MessageEmbed()
-.setTitle('Example text embed')
-.setURL('https://www.youtube.com/channel/UChPrh75CmPP9Ig6jISPnfNA')
-.setAuthor(message.author.username)
+.setTitle('Help')
 .setFooter('This is a footer')
 .setColor('#00AAFF')
 .addFields(
   {
-    name: 'Field 1',
-    value: 'Hello world',
+    name: 'Among US',
+    value: 'Gebruik !au regio game code',
     inline: true,
   },
   {
-    name: 'Field 2',
-    value: 'Hello world',
+    name: 'fasttype',
+    value: 'gebuik !fasttype om te kijken hoe snel jij kan typen',
     inline: true,
   },
   {
-    name: 'Field 3',
-    value: 'Hello world',
+    name: 'covid',
+    value: 'Gebruik !covid om te kijken naar de statistieken van Covid',
     inline: true,
   },
   {
-    name: 'Field 4',
-    value: 'Hello world',
-  }
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+
+  
+  
 )
 
 message.channel.send(embed)
