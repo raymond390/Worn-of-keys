@@ -73,6 +73,46 @@ const embed = new MessageEmbed()
     value: 'zo unmute je een persoon',
     inline: true,
   },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
+  {
+    name: 'docs',
+    value: 'bekijk de discordjs pagina',
+    inline: true,
+  },
 
   
   
