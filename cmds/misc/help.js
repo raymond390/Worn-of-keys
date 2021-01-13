@@ -17,8 +17,6 @@ const embed = new MessageEmbed()
 .setTitle('Example text embed')
 .setURL('https://www.youtube.com/channel/UChPrh75CmPP9Ig6jISPnfNA')
 .setAuthor(message.author.username)
-.setImage(logo)
-.setThumbnail(logo)
 .setFooter('This is a footer')
 .setColor('#00AAFF')
 .addFields(
