@@ -11,7 +11,7 @@ module.exports = class help extends Commando.Command {
     })
   }
   run = async (message) => {
-    const { guild, channel } = messag
+    const { guild, channel } = message
 
 const embed = new MessageEmbed()
 .setTitle('Example text embed')
