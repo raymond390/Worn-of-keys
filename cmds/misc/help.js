@@ -4,9 +4,9 @@ const Commando = require('discord.js-commando')
 module.exports = class help extends Commando.Command {
   constructor(client) {
     super(client, {
-      name: 'embed',
+      name: 'help',
       group: 'misc',
-      memberName: 'embed',
+      memberName: 'help',
       description: 'Displays information a user',
     })
   }
