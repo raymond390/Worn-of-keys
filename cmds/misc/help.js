@@ -74,18 +74,18 @@ const embed = new MessageEmbed()
     inline: true,
   },
   {
-    name: 'docs',
-    value: 'bekijk de discordjs pagina',
+    name: 'addbal',
+    value: 'verhoogd je saldo',
     inline: true,
   },
   {
-    name: 'docs',
-    value: 'bekijk de discordjs pagina',
+    name: 'bal',
+    value: 'bekijk je saldo',
     inline: true,
   },
   {
-    name: 'docs',
-    value: 'bekijk de discordjs pagina',
+    name: 'pay',
+    value: 'geef mensen geld',
     inline: true,
   },
   {
