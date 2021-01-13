@@ -10,9 +10,10 @@ module.exports = class UserInfoCommand extends Commando.Command {
       description: 'Displays information a user',
     })
   }
-
   run = async (message) => {
     const { guild, channel } = message
+
+
 
     const user = message.mentions.users.first() || message.member.user
     const member = guild.members.cache.get(user.id)
